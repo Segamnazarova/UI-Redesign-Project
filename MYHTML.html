@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudgwick Steam & Country Show</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d99;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('new-banner.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #cc5500;
+    transform: scale(1.05);
+}
+
+/* Sections */
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #ddd;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #004d99;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #004d99;
+    color: white;
+    padding: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rudgwick Steam & Country Show</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#exhibitors">Exhibitors</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to the Rudgwick Steam & Country Show</h1>
+        <p>Experience vintage steam engines, live music, and family-friendly fun!</p>
+        <a href="#tickets" class="cta-button">Buy Tickets</a>
+    </section>
+
+    <section id="schedule" class="content-section">
+        <h2>Event Schedule</h2>
+        <p>Check out our exciting lineup of events happening throughout the weekend.</p>
+    </section>
+
+    <section id="exhibitors" class="content-section">
+        <h2>Meet the Exhibitors</h2>
+        <p>Explore the unique attractions and exhibitions at the show.</p>
+    </section>
+
+    <section id="tickets" class="content-section">
+        <h2>Get Your Tickets</h2>
+        <p>Don't miss out! Purchase your tickets online today.</p>
+        <a href="#" class="cta-button">Buy Now</a>
+    </section>
+
+    <section id="faq" class="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about the event, parking, and more.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rudgwick Steam & Country Show. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
