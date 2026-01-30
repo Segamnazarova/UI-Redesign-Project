@@ -1,3 +1,4 @@
+live demo: https://segamnazarova.github.io/UI-Redesign-Project/
 # UI Redesign Project
 
 This project is a responsive UI redesign created using HTML and CSS.
